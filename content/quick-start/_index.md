@@ -1,6 +1,7 @@
 +++
 title = "Quick Start"
 description = ""
+weight = 1
 +++
 
 This quick start is intented to introduce the core local development experience for Yext Sites.  You do not need a Yext Account to get started and get a sense of how things work. 

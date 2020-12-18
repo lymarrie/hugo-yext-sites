@@ -7,10 +7,10 @@ description = ""
 
 
 ##### Before you begin
-You will need a Yext account to go through this tutorial. Don't have one? Sign up for a free Yext account [here](yext.com) 
+You will need a Yext account to go through this tutorial. Don't have one? Sign up for a free Yext account [here](yext.com).  
 
 
-##### Step 1. Clone the Yext Sites Starter Repo 
+##### Step 1. Clone the Yext Sites starter repo 
 Yext lets you link a Github repository to your Yext account for continous deployment. Each time you push to your Github repo, Yext will deploy your latest commit. 
 
 Create a new repo in your Github account and clone the Yext Starter repo. 
@@ -19,18 +19,19 @@ Create a new repo in your Github account and clone the Yext Starter repo.
 
 *First time working with git?* Check out our step-by-step guide [here](yext.com) and return to this point. 
 
-##### Step 2. Set up your Yext Account with Solution Template 
+##### Step 2. Set up your Yext account with Solution Template 
 
-In this step your going to set up your Yext account so its ready to deploy a site. You will do this by applying a [SolutionTemplate](yext.com) to your Yext account, which will install sample data to help you get going. Don't worry - you can edit all of the data later.  
+In this step, you are going to set up your Yext account so its ready to deploy a Site. You will do this by applying a [SolutionTemplate](yext.com) to your Yext account, which will install sample data and a Stream to help you get going. Don't worry - you can edit all of the data later.  
 
-Navigate to the Apps tab and find the Solutions sub-tab. Open the Basic Template and install it! 
+In the Yext platform, navigate to the Apps tab and find the Solutions sub-tab. Open the Basic Template and install it! 
 
 ![solution](/images/solution_template.png)
 
-Your yext account should look something like this: 
+Your yext account should now look something like this: 
+
 ![default](/images/yext_default.png)
 
-##### Step 3. Create a Site and Link it to Your Github account 
+##### Step 3. Create a Site and link it to your Github account 
 
 Open the Sites tab in Yext and create a new Site
 
@@ -40,10 +41,10 @@ Connect to your Git account and choose your repo with the Yext Sites starter.
 
 ![connect](/images/2020-12-17_19-15-24.png)
 
-Continue through the setup and create your Site!
+Continue through the setup steps and create your Site!
 
 
-##### Step 4. Check Out Your Newly Deployed Site! 
+##### Step 4. Check out Your newly deployed Site! 
 
 And you're Live! 
 

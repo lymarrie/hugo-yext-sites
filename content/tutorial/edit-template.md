@@ -45,7 +45,7 @@ For now, go ahead and make a change to the template:
 
 Saved changes will live reload in your browser. 
 
-##### Step 4. Commit and Push your Changes  
+##### Step 4. Commit and push your changes  
 Let's deploy your changes . 
 
 Commit and push up to the origin. 
@@ -63,7 +63,7 @@ Yext is building a new version of your site based on your updated template. We c
 
 Deploys are the fundamental building blocks of your deploy workflow. Each deploy is an independant, fully rendered version of your site. Each deploy can be previewed at unique preview URL. Open your deploys in new tabs and try to find the 
 
-##### Step 5. Rollback to your Previous Deploy  
+##### Step 5. Rollback to your previous deploy  
 By default, your most recent deploy is published to the main URL of your site. You should see the deploy you just pushed with a "published" pill next to is in the UI. 
 
 Yext allows you to rollback to previous deploys in seconds. Let's take a look at how this works. 
