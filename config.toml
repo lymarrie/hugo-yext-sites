@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Yext Sites Documentation"
+theme = "ace-documentation"
+
+[params]
+    name = "gideon"
+    site_logo = "/images/Yext_Seal_R_Web_White-300x300-a4acd96.png"
+
+
