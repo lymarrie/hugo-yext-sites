@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/tutorial/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tutorial/create-site/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tutorial/edit-template/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tutorial/edit-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/quick-start/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="http://example.org/tutorial/create-site/">
+
+    <title>
+        
+        1. Create and Deploy Your Site | Yext Sites Documentation
+        
+    </title>
+
+    
+    <link href="http://example.org/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="http://example.org/css/ace.min.css">
+
+    
+
+    
+    
+        
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top" id="navbarMain">
+    <div class="container ml-0">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                    <img src="/images/Yext_Seal_R_Web_White-300x300-a4acd96.png" />
+                
+                Yext Sites Documentation
+            </a>
+        </div>
+        
+    </div>
+    </nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/quick-start/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/quick-start/">Quick Start</a>
+    </li>
+    <li data-nav-id="/tutorial/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/tutorial/">Tutorial</a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/tutorial/overview/" class="nav-item my-1">
+                
+                 <a href="/tutorial/overview/" class="nav-link p-0">
+                    0. Conceptual Overview
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/create-site/" class="nav-item my-1 active">
+                
+                 <a href="/tutorial/create-site/" class="nav-link p-0">
+                    1. Create and Deploy Your Site
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/edit-template/" class="nav-item my-1">
+                
+                 <a href="/tutorial/edit-template/" class="nav-link p-0">
+                    2. Edit a Template
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/edit-data/" class="nav-item my-1">
+                
+                 <a href="/tutorial/edit-data/" class="nav-link p-0">
+                    3. Edit a Stream
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h3>1. Create and Deploy Your Site</h3>
+
+
+<p class="lead">
+    The goal of this tutorial is to create and deploy a Site that is hooked up to the Yext Knowledge Graph. To do so, you will create a Yext Site project in Git, set up your Yext account, and hook the two up. Let&rsquo;s do this!
+</p>
+
+<h5 id="before-you-begin">Before you begin</h5>
+<p>You will need a Yext account to go through this tutorial. Don&rsquo;t have one? Sign up for a free Yext account <a href="yext.com">here</a></p>
+<h5 id="step-1-clone-the-yext-sites-starter-repo">Step 1. Clone the Yext Sites Starter Repo</h5>
+<p>Yext lets you link a Github repository to your Yext account for continous deployment. Each time you push to your Github repo, Yext will deploy your latest commit.</p>
+<p>Create a new repo in your Github account and clone the Yext Starter repo.</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_411333e3b8">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_411333e3b8">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">github</span>.<span style="color:#a6e22e">com</span><span style="color:#f92672">/</span><span style="color:#a6e22e">gideonwhylr</span><span style="color:#f92672">/</span><span style="color:#a6e22e">yext</span><span style="color:#f92672">-</span><span style="color:#a6e22e">sites</span><span style="color:#f92672">-</span><span style="color:#a6e22e">starter</span><span style="color:#f92672">-</span><span style="color:#a6e22e">v1</span> 
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<p><em>First time working with git?</em> Check out our step-by-step guide <a href="yext.com">here</a> and return to this point.</p>
+<h5 id="step-2-set-up-your-yext-account-with-solution-template">Step 2. Set up your Yext Account with Solution Template</h5>
+<p>In this step your going to set up your Yext account so its ready to deploy a site. You will do this by applying a <a href="yext.com">SolutionTemplate</a> to your Yext account, which will install sample data to help you get going. Don&rsquo;t worry - you can edit all of the data later.</p>
+<p>Navigate to the Apps tab and find the Solutions sub-tab. Open the Basic Template and install it!</p>
+<p><img src="/images/solution_template.png" alt="solution"></p>
+<p>Your yext account should look something like this:
+<img src="/images/yext_default.png" alt="default"></p>
+<h5 id="step-3-create-a-site-and-link-it-to-your-github-account">Step 3. Create a Site and Link it to Your Github account</h5>
+<p>Open the Sites tab in Yext and create a new Site</p>
+<p><img src="/images/2020-12-17_19-11-37.png" alt="create-site"></p>
+<p>Connect to your Git account and choose your repo with the Yext Sites starter.</p>
+<p><img src="/images/2020-12-17_19-15-24.png" alt="connect"></p>
+<p>Continue through the setup and create your Site!</p>
+<h5 id="step-4-check-out-your-newly-deployed-site">Step 4. Check Out Your Newly Deployed Site!</h5>
+<p>And you&rsquo;re Live!</p>
+<p>Yext has deployed your Starter Site based on data in Knowledge Graph. Open your site in a new tab to see what it looks like. Whenever you edit data in the Knowledge Graph, Yext will automatically update the relevant pages.</p>
+<p><em>Let&rsquo;s try it.</em></p>
+<p>Open an entity in the Knowledge Graph and update a data field. Yext will automatically stream the update to your web-pages in seconds. Yext Sites is designed to process thousands of updates in seconds.</p>
+<p><strong>What&rsquo;s next?</strong></p>
+<ul>
+<li>Tutorial 2: Edit a template for your Site</li>
+<li>Tutorial 3: Edit what data is streamed to your Site</li>
+</ul>
+
+
+    
+
+
+                    
+                    <div class="row"></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="http://example.org/lib/jquery.min.js"></script> 
+<script src="http://example.org/lib/popper.min.js"></script> 
+
+<script src="http://example.org/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "http:\/\/example.org\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

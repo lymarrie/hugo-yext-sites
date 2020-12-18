@@ -40,7 +40,7 @@ Connect to your Git account and choose your repo with the Yext Sites starter.
 
 ![connect](/images/2020-12-17_19-15-24.png)
 
-Continue through the setup and create your Site! 
+Continue through the setup and create your Site!
 
 
 ##### Step 4. Check Out Your Newly Deployed Site! 

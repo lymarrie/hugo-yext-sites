@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Yext Sites on Yext Sites Documentation</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Welcome to Yext Sites on Yext Sites Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0. Conceptual Overview</title>
+      <link>http://example.org/tutorial/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorial/overview/</guid>
+      <description>Yext Sites makes it easy to create high-performance websites based on a Knowledge Graph.
+To do so, you will use 3 parts of the Yext Platform
+ The Knowledge Graph - where you store all your data Yext Streams - how you send data from the Knowledge Graph to your Site Yext Sites - what your customers will see  These components are designed to work together to make it easy create and maintain incredible experiences for your customer.</description>
+    </item>
+    
+    <item>
+      <title>1. Create and Deploy Your Site</title>
+      <link>http://example.org/tutorial/create-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorial/create-site/</guid>
+      <description>The goal of this tutorial is to create and deploy a Site that is hooked up to the Yext Knowledge Graph. To do so, you will create a Yext Site project in Git, set up your Yext account, and hook the two up. Let&amp;rsquo;s do this! Before you begin You will need a Yext account to go through this tutorial. Don&amp;rsquo;t have one? Sign up for a free Yext account here</description>
+    </item>
+    
+    <item>
+      <title>2. Edit a Template</title>
+      <link>http://example.org/tutorial/edit-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorial/edit-template/</guid>
+      <description>The goal of this tutorial is to show how to edit the templates that define the layout and content of your pages Step 1. Download the Yext CLI Copy   brew install yext    Follow the prompts in the installation. If you have a Yext account, login through the CLI.
+Step 2. Run your site locally Navigate to your site directory and run the develop command to build your site locally.</description>
+    </item>
+    
+    <item>
+      <title>3. Edit a Stream</title>
+      <link>http://example.org/tutorial/edit-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorial/edit-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
