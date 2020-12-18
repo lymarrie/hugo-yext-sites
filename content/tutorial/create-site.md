@@ -54,6 +54,5 @@ Yext has deployed your Starter Site based on data in Knowledge Graph. Open your 
 Open an entity in the Knowledge Graph and update a data field. Yext will automatically stream the update to your web-pages in seconds. Yext Sites is designed to process thousands of updates in seconds. 
 
 
-**What's next?**  
- - Tutorial 2: Edit a template for your Site
- - Tutorial 3: Edit what data is streamed to your Site 
+**What's next?** 
+Let's make some edits to your site!  

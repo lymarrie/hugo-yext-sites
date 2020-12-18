@@ -19,7 +19,6 @@ Yext Sites is maniacally committed to the following:
 - **Simplicity:** We want to make it as easy as possible to focus on creating incredible experiences for your customers, by streamlining the setup and configuration of enterprise-grade deployment and hosting infrastructure. 
 
 
-
 <!-- 
 ## Features
 <div class="row py-3 mb-5">

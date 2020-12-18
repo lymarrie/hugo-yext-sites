@@ -26,30 +26,55 @@ The development server will hot-reload any changes you make. Try editing the hom
 ##### Step 3. Edit a template 
 Open the `src/templates` directory to find the templates that define the pages for your site. 
 
-Edit `store_pages.tmpl` and make a change. 
+Let's take a look at `store_pages.tmpl`.
+
+Yext Sites uses Go’s html/template as the basis for templating. Data from the Stream is accessible in the template file using Go variables. Stream data will be explained in more detail later.  
+
+For now, go ahead and make a change to the template:
+
+
+{{< code lang="html">}} <html> 
+	<body> 
+	  <h1> Store Details </h1>
+	  <h2>{{.name }} </h2>
+	  <p> {{.address }} </p>
+	  <p> {{.phone}} </p>
+      <p> Hello world </p>
+	</body> 
+</html> {{</ code>}}
 
 Saved changes will live reload in your browser. 
 
 ##### Step 4. Commit and Push your Changes  
-Let's deploy your changes to your production Site. 
+Let's deploy your changes . 
 
 Commit and push up to the origin. 
 
-By default, Yext Sites is set to auto-deploy from your repo. 
+{{< code lang="js" >}} git push u- origin master {{</ code >}}
+
+By default, Yext Sites is set to auto-deploy from the repo that you've linked.  
 
 Open the Yext Dashboard and you should see a new deployment initalizing. 
+
+![second](/images/second_deploy.png)
+
 
 Yext is building a new version of your site based on your updated template. We call this a deploys.  
 
 Deploys are the fundamental building blocks of your deploy workflow. Each deploy is an independant, fully rendered version of your site. Each deploy can be previewed at unique preview URL. Open your deploys in new tabs and try to find the 
 
-##### Step 5. Rollback to your previous deploy  
-By default, your most deploy is published to the main URL of your site. You should see the most recent deploy in your dashboard with a published pill. 
+##### Step 5. Rollback to your Previous Deploy  
+By default, your most recent deploy is published to the main URL of your site. You should see the deploy you just pushed with a "published" pill next to is in the UI. 
 
 Yext allows you to rollback to previous deploys in seconds. Let's take a look at how this works. 
 
-Open the main URL of your site and note how it reflects the template changes you just made. 
+1. Open the main URL of your site and note how it reflects the template changes you just made. 
+2. Now publish the previous deploy from the Yext Dashboard. 
+3. Refresh the production url. You should see the older, unedited version of your template live. 
 
-Now publish the previous deploy from the Yext Dashboard. Refresh the 
+The deployment pipeline is designed to make your development safe and efficient. Learn more here. 
 
+
+**What's next?** 
+Let's dive into Yext Streams - the mechanism for sending data to your website.  
 

@@ -3,23 +3,21 @@ title = "0. Conceptual Overview"
 description = ""
 +++
 
-Yext Sites makes it easy to create high-performance websites based on a Knowledge Graph. 
-
+Yext Sites makes it easy to create high-performance websites based on a Knowledge Graph.
 To do so, you will use 3 parts of the Yext Platform 
 
-![diagram](/images/diagram.png)
+
+![diagram](/images/diagram1.png)
 
 
-1. **The Knowledge Graph** - where you store all your data 
-2. **Yext Streams** - how you send data from the Knowledge Graph to your Site  
-3. **Yext Sites** -  what your customers will see 
+1. **The Knowledge Graph** - A powerful and easy-to-use database to store and edit your data 
+2. **Yext Streams** - A pipeline that sends data to you Site efficiently  
+3. **Yext Sites** -  The frontend that your customers see  
 
-These components are designed to work together to make it easy create and maintain incredible experiences for your customer. 
+These components of the Yext Platform are designed to work together to give you a powerful and flexible toolkit. Let's dive in to see it in action. 
 
-Here's what you can expect in each step of the tutorial. 
-
-- **In step 1**, you will create and deploy a site that is hooked up a knowledge graph - this should give you an overall sense of how the pieces fit together  
-- **In step 2**, you will edit templates in your site - this will show you how to edit the front end of your site  
-- **In step 3**, you will configure what data you're streaming to your Site - this will show y
+- **In Step 1**, you will create and deploy a site that is hooked up to a Knowledge Graph - this should give you an overall sense of how the pieces fit together  
+- **In Step 2**, you will edit templates in your site - this will show you how to edit the frontend of your website  
+- **In Step 3**, you will edit a stream - this will show you how you can control what data is sent to your site
 
 We reccomend you go through these steps in order to get a full picture of the Yext Sites system. 
