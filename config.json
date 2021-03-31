@@ -7,6 +7,21 @@
 	],
 	"templateVersion": 8,
 	"requireArtifactBuild": false,
+	"artifactStructure": {
+		"assets": [
+			{
+				"root": "desktop"
+			},
+			{
+				"root": "content"
+			}
+		],
+		"go_templates": [
+			{
+				"root": "templates"
+			}
+		]
+	},
 	"features": [
 		{
 			"name": "Location Page",
@@ -18,7 +33,6 @@
 		}
 	],
 	"ci_config": {
-		"output_directories": ["templates", "desktop", "public"],
 		"build_setup_cmd": "echo build setup",
 		"build_cmd": "ci/build.sh",
 		"serve_setup_cmd": "echo setup",
