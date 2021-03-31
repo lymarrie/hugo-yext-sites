@@ -28,7 +28,7 @@
 					"root": "desktop"
 				},
 				{
-					"root": "content"
+					"root": "public"
 				}
 			],
 			"goTemplates": [
