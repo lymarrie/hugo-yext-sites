@@ -1,7 +1,7 @@
 baseURL = "master-swept--laboring--shakiness-pgsdemo-com.preview.pagescdn.com"
 languageCode = "en-us"
 title = "Yext Sites Documentation"
-theme = "themes/ace-documentation/"
+theme = "ace-documentation"
 
 [params]
     name = "gideon"
