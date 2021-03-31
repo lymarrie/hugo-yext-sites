@@ -18,10 +18,10 @@
 		}
 	],
 	"ci_config": {
-		"output_directories": ["templates", "desktop"],
+		"output_directories": ["templates", "desktop", "public"],
 		"build_setup_cmd": "echo build setup",
 		"build_cmd": "ci/build.sh",
 		"serve_setup_cmd": "echo setup",
-		"serve_cmd": "ci/serve.sh"
+		"serve_cmd": "echo serve"
 	}
 }
