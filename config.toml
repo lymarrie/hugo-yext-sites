@@ -1,4 +1,4 @@
-baseURL = "master-swept--laboring--shakiness-pgsdemo-com.preview.pagescdn.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Yext Sites Documentation"
 theme = "ace-documentation"
