@@ -19,7 +19,7 @@
 	],
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
-		"build_setup_cmd": "echo setup",
+		"build_setup_cmd": "HUGO_VERSION=0.64.0 npx hugo-cli version",
 		"build_cmd": "npx hugo-cli server",
 		"serve_setup_cmd": "echo setup",
 		"serve_cmd": "echo serve"
