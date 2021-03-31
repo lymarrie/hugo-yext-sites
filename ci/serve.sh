@@ -1,0 +1,1 @@
+npx hugo-cli server
