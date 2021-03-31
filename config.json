@@ -22,6 +22,6 @@
 		"build_setup_cmd": "echo build setup",
 		"build_cmd": "ci/build.sh",
 		"serve_setup_cmd": "echo setup",
-		"serve_cmd": "echo serve"
+		"serve_cmd": "npx hugo-cli server"
 	}
 }
