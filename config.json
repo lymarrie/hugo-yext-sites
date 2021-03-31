@@ -31,7 +31,7 @@
 					"root": "content"
 				}
 			],
-			"go_templates": [
+			"goTemplates": [
 				{
 					"root": "templates"
 				}
