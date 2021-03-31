@@ -7,21 +7,6 @@
 	],
 	"templateVersion": 8,
 	"requireArtifactBuild": false,
-	"artifactStructure": {
-		"assets": [
-			{
-				"root": "desktop"
-			},
-			{
-				"root": "content"
-			}
-		],
-		"go_templates": [
-			{
-				"root": "templates"
-			}
-		]
-	},
 	"features": [
 		{
 			"name": "Location Page",
@@ -36,6 +21,21 @@
 		"build_setup_cmd": "echo build setup",
 		"build_cmd": "ci/build.sh",
 		"serve_setup_cmd": "echo setup",
-		"serve_cmd": "npx hugo-cli server"
+		"serve_cmd": "npx hugo-cli server",
+		"artifactStructure": {
+			"assets": [
+				{
+					"root": "desktop"
+				},
+				{
+					"root": "content"
+				}
+			],
+			"go_templates": [
+				{
+					"root": "templates"
+				}
+			]
+		}
 	}
 }
