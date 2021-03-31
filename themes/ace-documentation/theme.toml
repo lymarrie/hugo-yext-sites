@@ -8,7 +8,7 @@ description = "A documentation theme featuring a clean design, code highlighting
 homepage = "https://github.com/vantagedesign/ace-documentation"
 tags = ["documentation", "bootstrap", "responsive", "syntax highlighting", "search", "google analytics", "font awesome", "highlight.js", "docs", "clean", "mobile", "fast", "light", "simple", "minimal", "minimalist"]
 features = ["documentation", "bootstrap", "sass", "search"]
-min_version = "0.51.0"
+min_version = "0.53.0"
 
 [author]
   name = "Vantage Design"
