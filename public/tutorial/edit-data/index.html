@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="/tutorial/edit-data/">
+
+    <title>
+        
+        3. Edit a Stream | Yext Sites Documentation
+        
+    </title>
+
+    
+    <link href="/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/css/ace.min.css">
+
+    
+
+    
+    
+        
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top" id="navbarMain">
+    <div class="container ml-0">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                    <img src="/images/Yext_Seal_R_Web_White-300x300-a4acd96.png" />
+                
+                Yext Sites Documentation
+            </a>
+        </div>
+        
+    </div>
+    </nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/quick-start/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/quick-start/">Quick Start</a>
+    </li>
+    <li data-nav-id="/tutorial/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/tutorial/">Tutorial</a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/tutorial/overview/" class="nav-item my-1">
+                
+                 <a href="/tutorial/overview/" class="nav-link p-0">
+                    0. Conceptual Overview
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/create-site/" class="nav-item my-1">
+                
+                 <a href="/tutorial/create-site/" class="nav-link p-0">
+                    1. Create and Deploy Your Site
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/edit-template/" class="nav-item my-1">
+                
+                 <a href="/tutorial/edit-template/" class="nav-link p-0">
+                    2. Edit a Template
+                </a>
+        </li>
+        <li data-nav-id="/tutorial/edit-data/" class="nav-item my-1 active">
+                
+                 <a href="/tutorial/edit-data/" class="nav-link p-0">
+                    3. Edit a Stream
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/how_to_guides/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/how_to_guides/">How-to Guides</a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/how_to_guides/styling/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/styling/" class="nav-link p-0">
+                    Styling
+                </a>
+        </li>
+        <li data-nav-id="/how_to_guides/images/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/images/" class="nav-link p-0">
+                    Images
+                </a>
+        </li>
+        <li data-nav-id="/how_to_guides/versioning/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/versioning/" class="nav-link p-0">
+                    Versioning
+                </a>
+        </li>
+        <li data-nav-id="/how_to_guides/redirects/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/redirects/" class="nav-link p-0">
+                    Redirects
+                </a>
+        </li>
+        <li data-nav-id="/how_to_guides/internationalization/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/internationalization/" class="nav-link p-0">
+                    Internationalization
+                </a>
+        </li>
+        <li data-nav-id="/how_to_guides/advanced/" class="nav-item my-1">
+                
+                 <a href="/how_to_guides/advanced/" class="nav-link p-0">
+                    Advanced Stream Configuration
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h3>3. Edit a Stream</h3>
+
+
+<p class="lead">
+    In this tutorial, you will learn to control what data you are streaming to your site by configuring a stream
+</p>
+
+<h5 id="the-problem">The Problem</h5>
+<p>In this exercize, we will focus on the location data in the graph. Right now, the only data points accesible to your Site are the name, address, and phone number of your stores. We will show you how to add a store description to your pages by adding this data point to your Stream.</p>
+<h5 id="step-1-open-the-yext-admin-console">Step 1: Open the Yext Admin Console</h5>
+<p>Run the following command from the Yext CLI to inspect the streams your site is using</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_c8db6c84b1">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_c8db6c84b1">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#a6e22e">yext</span> <span style="color:#a6e22e">streams</span> <span style="color:#a6e22e">view</span>  
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<p>The command should open up the Yext Admin Console where you can see your Streams:</p>
+<p><img src="/images/admin_console2.png" alt="admin"></p>
+<h5 id="step-2-find-your-stream-by-looking-for-the-relevant-label">Step 2: Find your Stream by looking for the relevant label</h5>
+<p>Every stream is associated with a label. This is how you link a Stream in your Yext Account to your site.</p>
+<p>Find the Stream Rule with the label &lsquo;storepages&rsquo;</p>
+<h5 id="step-3-add-data-to-your-stream-rule">Step 3: Add data to your Stream Rule</h5>
+<p>Stream rules define what data from Knowledge Graph you&rsquo;re including in the stream system. 
+We can see that we&rsquo;re only including 3 data points in the stream. Let&rsquo;s add the description field, as well.</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_8541c30ab1">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_8541c30ab1">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"> {
+  <span style="color:#f92672">&#34;$id&#34;</span>: <span style="color:#e6db74">&#34;namespace_storePagesStarter_entities&#34;</span>,
+  <span style="color:#f92672">&#34;$schema&#34;</span>: <span style="color:#e6db74">&#34;https://schema.yext.com/config/cloudstream/stream-rule/v1&#34;</span>,
+  <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;knowledgeManager&#34;</span>,
+  <span style="color:#f92672">&#34;destination&#34;</span>: <span style="color:#e6db74">&#34;graphmerge&#34;</span>,
+  <span style="color:#f92672">&#34;srcRegion&#34;</span>: <span style="color:#e6db74">&#34;nj1&#34;</span>,
+  <span style="color:#f92672">&#34;dstRegion&#34;</span>: <span style="color:#e6db74">&#34;gcp-use4a&#34;</span>,
+  <span style="color:#f92672">&#34;labels&#34;</span>: [<span style="color:#e6db74">&#34;store_pages_starter_template&#34;</span>],
+  <span style="color:#f92672">&#34;filter&#34;</span>: { <span style="color:#f92672">&#34;type&#34;</span>: [<span style="color:#e6db74">&#34;location&#34;</span>], <span style="color:#f92672">&#34;fields&#34;</span>: [<span style="color:#e6db74">&#34;name&#34;</span>, <span style="color:#e6db74">&#34;address&#34;</span>, <span style="color:#e6db74">&#34;phonenumber&#34;</span>, <span style="color:#e6db74">&#34;description&#34;</span>]}
+}
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h5 id="step-4-add-the-description-to-the-scheme-file">Step 4: Add the description to the scheme file</h5>
+<p>The schema file determines the shape of the data you will send to your Site. You can implement all kinds of data transformations in this step. For now, let&rsquo;s simply add the description field.</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_54a72521f4">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_54a72521f4">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"> {
+  <span style="color:#f92672">&#34;$id&#34;</span>: <span style="color:#e6db74">&#34;https://schema.yext.com/schemas/mySite/locations&#34;</span>,
+  <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Output Schema for Location docs&#34;</span>,
+  <span style="color:#f92672">&#34;primaryKey&#34;</span>: <span style="color:#e6db74">&#34;externalEntityId&#34;</span>,
+  <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;object&#34;</span>,
+  <span style="color:#f92672">&#34;properties&#34;</span>: {
+<span style="color:#f92672">&#34;externalEntityId&#34;</span>: {<span style="color:#f92672">&#34;$ref&#34;</span>:<span style="color:#e6db74">&#34;https://schema.yext.com/fields/yext/externalEntityId&#34;</span>},
+<span style="color:#f92672">&#34;name&#34;</span>: {<span style="color:#f92672">&#34;$ref&#34;</span>:<span style="color:#e6db74">&#34;https://schema.yext.com/fields/yext/name&#34;</span> }, 
+<span style="color:#f92672">&#34;address&#34;</span>: { <span style="color:#f92672">&#34;$ref&#34;</span>:<span style="color:#e6db74">&#34;https://schema.yext.com/fields/yext/address&#34;</span> }, 
+<span style="color:#f92672">&#34;Phone&#34;</span>: {<span style="color:#f92672">&#34;$ref&#34;</span> : <span style="color:#e6db74">&#34;https://schema.yext.com/fields/yext/phone&#34;</span> }, 
+<span style="color:#f92672">&#34;Description&#34;</span>: {<span style="color:#f92672">&#34;$ref&#34;</span> : <span style="color:#e6db74">&#34;https://schema.yext.com/fields/yext/description&#34;</span> }, 
+   }
+}
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<p>Save your results. You have now added the description field to your stream. Next we&rsquo;ll add it to your site.</p>
+<h5 id="step-5-view-sample-data">Step 5: View sample data</h5>
+<p>The Yext CLI allows you to view sample data from your stream to validate that it includes what you want.</p>
+<p>Run the following command from inside your Sites project directory. This will overwrite contents of the <code>/data</code> directory with a sample of data from you current Stream.</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_8d02108c17">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_8d02108c17">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#a6e22e">yext</span> <span style="color:#a6e22e">sites</span> <span style="color:#a6e22e">generate</span><span style="color:#f92672">-</span><span style="color:#a6e22e">data</span> <span style="color:#a6e22e">label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;store_pages&#34;</span> 
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<p>Open the <code>/data</code> directory and you should see <code>json</code> files with location data that includes a store description. Let&rsquo;s see what this looks like on your page.</p>
+<h5 id="step-6-add-the-description-field-to-your-template">Step 6: Add the description field to your template</h5>
+<p>Open the  <code>store_pages.tmpl</code> file and add the description field to the page</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_9e75b0dd82">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_9e75b0dd82">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> //store_pages.tmpl 
+&lt;<span style="color:#f92672">html</span>&gt; 
+	&lt;<span style="color:#f92672">body</span>&gt; 
+	  &lt;<span style="color:#f92672">h1</span>&gt; Store Details &lt;/<span style="color:#f92672">h1</span>&gt;
+	  &lt;<span style="color:#f92672">h2</span>&gt; {{.name }} &lt;/<span style="color:#f92672">h2</span>&gt;
+	  &lt;<span style="color:#f92672">p</span>&gt; {{.address }} &lt;/<span style="color:#f92672">p</span>&gt;
+	  &lt;<span style="color:#f92672">p</span>&gt; {{.phone}} &lt;/<span style="color:#f92672">p</span>&gt;
+	  &lt;<span style="color:#f92672">p</span>&gt; {{.description}} &lt;/<span style="color:#f92672">p</span>&gt;
+	&lt;/<span style="color:#f92672">body</span>&gt; 
+&lt;/<span style="color:#f92672">html</span>&gt; 
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h5 id="step-7-build-your-site-locally">Step 7: Build your site locally</h5>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_aa91751a74">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_aa91751a74">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#a6e22e">yext</span> <span style="color:#a6e22e">sites</span> <span style="color:#a6e22e">develop</span> 
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<p>Open your site in your browser. You should see the store description on your store pages now!</p>
+<p>Note your local build is based on the sample data in your repo. Let&rsquo;s push this change to production to do a build based on live data in the Knowledge Graph</p>
+<h5 id="step-7-deploy-your-site">Step 7: Deploy your site</h5>
+<p>Commit and push your site and opent the Yext Dashboard.</p>
+<p>When your deploy is complete open the preview. You should now see store description on your store pages.</p>
+<p>Edit the description field in the Knowledge Manager. You should see the change automatically reflected in this new deploy.</p>
+<p>Open a preview of an old deploy. Note the description is not included on these pages. This old deploy represents a commit without the description field include in the page template.</p>
+
+
+    
+
+
+                    
+                    <div class="row"></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="/lib/jquery.min.js"></script> 
+<script src="/lib/popper.min.js"></script> 
+
+<script src="/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

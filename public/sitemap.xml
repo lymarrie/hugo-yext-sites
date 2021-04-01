@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/quick-start/</loc>
+  </url><url>
+    <loc>/how_to_guides/styling/</loc>
+  </url><url>
+    <loc>/how_to_guides/images/</loc>
+  </url><url>
+    <loc>/tutorial/</loc>
+  </url><url>
+    <loc>/how_to_guides/versioning/</loc>
+  </url><url>
+    <loc>/how_to_guides/redirects/</loc>
+  </url><url>
+    <loc>/how_to_guides/internationalization/</loc>
+  </url><url>
+    <loc>/tutorial/overview/</loc>
+  </url><url>
+    <loc>/tutorial/create-site/</loc>
+  </url><url>
+    <loc>/tutorial/edit-template/</loc>
+  </url><url>
+    <loc>/tutorial/edit-data/</loc>
+  </url><url>
+    <loc>/how_to_guides/advanced/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/how_to_guides/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url>
+</urlset>

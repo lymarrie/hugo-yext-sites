@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Yext Sites on Yext Sites Documentation</title>
+    <link>/</link>
+    <description>Recent content in Welcome to Yext Sites on Yext Sites Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Styling</title>
+      <link>/how_to_guides/styling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/styling/</guid>
+      <description>TBD </description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>/how_to_guides/images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/images/</guid>
+      <description>TBD </description>
+    </item>
+    
+    <item>
+      <title>Versioning</title>
+      <link>/how_to_guides/versioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/versioning/</guid>
+      <description>TBD </description>
+    </item>
+    
+    <item>
+      <title>Redirects</title>
+      <link>/how_to_guides/redirects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/redirects/</guid>
+      <description>TBD </description>
+    </item>
+    
+    <item>
+      <title>Internationalization</title>
+      <link>/how_to_guides/internationalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/internationalization/</guid>
+      <description>TBD </description>
+    </item>
+    
+    <item>
+      <title>0. Conceptual Overview</title>
+      <link>/tutorial/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/overview/</guid>
+      <description>Yext Sites makes it easy to create high-performance websites based on a Knowledge Graph. To do so, you will use 3 parts of the Yext Platform
+ The Knowledge Graph - A powerful and easy-to-use database to store and edit your data Yext Streams - A pipeline that sends data to you Site. In this tutorial we will start small, but Streams are designed to handle high volume of data updates.</description>
+    </item>
+    
+    <item>
+      <title>1. Create and Deploy Your Site</title>
+      <link>/tutorial/create-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/create-site/</guid>
+      <description>The goal of this tutorial is to create and deploy a Site that is hooked up to the Yext Knowledge Graph. To do so, you will create a Yext Site project in Git, set up your Yext account, and hook the two up. Let&amp;rsquo;s do this!Before you begin You will need a Yext account to go through this tutorial. Don&amp;rsquo;t have one? Sign up for a free Yext account here.</description>
+    </item>
+    
+    <item>
+      <title>2. Edit a Template</title>
+      <link>/tutorial/edit-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/edit-template/</guid>
+      <description>The goal of this tutorial is to show how to edit the templates that define the layout and content of your pagesStep 1. Download the Yext CLI Copybrew install yext Follow the prompts in the installation. If you have a Yext account, login through the CLI.
+Step 2. Run your site locally Navigate to your site directory and run the develop command to build your site locally.</description>
+    </item>
+    
+    <item>
+      <title>3. Edit a Stream</title>
+      <link>/tutorial/edit-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/edit-data/</guid>
+      <description>In this tutorial, you will learn to control what data you are streaming to your site by configuring a streamThe Problem In this exercize, we will focus on the location data in the graph. Right now, the only data points accesible to your Site are the name, address, and phone number of your stores. We will show you how to add a store description to your pages by adding this data point to your Stream.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Stream Configuration</title>
+      <link>/how_to_guides/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how_to_guides/advanced/</guid>
+      <description>TBD </description>
+    </item>
+    
+  </channel>
+</rss>
