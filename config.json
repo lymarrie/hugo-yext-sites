@@ -29,6 +29,12 @@
 				},
 				{
 					"root": "public"
+				},
+				{
+					"root": "resources/_gen/assets/scss/css"
+				},
+				{
+					"root": "content"
 				}
 			],
 			"goTemplates": [
