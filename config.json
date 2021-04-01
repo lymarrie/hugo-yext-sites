@@ -28,7 +28,7 @@
 					"root": "desktop"
 				},
 				{
-					"root": "public/tutorial/create-site"
+					"root": "public"
 				}
 			],
 			"goTemplates": [
