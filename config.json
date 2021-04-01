@@ -31,6 +31,9 @@
 					"root": "public"
 				},
 				{
+					"root": "public/tutorial/create-site"
+				},
+				{
 					"root": "resources/_gen/assets/scss/css"
 				},
 				{
