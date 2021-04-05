@@ -19,7 +19,7 @@
 	],
 	"ci_config": {
 		"build_setup_cmd": "echo build setup",
-		"build_cmd": "export HUGO_VERSION='0.64.0/extended' && npx hugo-cli",
+		"build_cmd": "export HUGO_VERSION='0.64.0/extended' && npx hugo-cli version && npx hugo-cli",
 		"serve_setup_cmd": "echo setup",
 		"serve_cmd": "echo serve",
 		"artifactStructure": {
